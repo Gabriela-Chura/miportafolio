@@ -21,6 +21,227 @@ body{
 
 
 
+.desktop-menu, .tto{
+    margin-top: 10px;
+}
+
+.tapita{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.fondo{
+    background-image: url(../images/header.jpg);
+    background-position: top;
+    background-size: cover;
+    color: #FFF;
+}
+
+header a{
+	color: rgba(255, 255, 255, 0.63);
+}
+nav li a{
+	display: block;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+    color: rgba(255, 255, 255, 0.53);
+	font-weight: 600;
+    
+}
+/*---------------------------------mainnav--------------------*/
+
+#main-navigation
+{
+	position: absolute;
+	right: 10px;
+	margin: 5px 0 0 0;
+}
+#main-navigation ul
+{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#main-navigation ul li a {
+    width: 200px;
+    text-align: center;
+    
+}
+
+#main-navigation ul li a:hover{
+     color: rgba(247, 186, 142, 0.65);
+    letter-spacing: 2px;
+}
+
+
+
+.icon-menu{
+ font-size: 20px;    
+}
+
+/*---------------------------------BOTONFIN--------------------*/
+.frase
+{
+	padding: 170px;
+	text-align: center;
+}
+
+
+hr.style18 { 
+  height: 30px;
+    width: 100px;
+  border-style: solid; 
+  border-color: rgb(247, 99, 7); 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+    width: 100px;
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color:rgb(248, 121, 41); 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+.header-banner
+{
+	background: rgb(248, 161, 107);
+	padding: 70px 0;
+    color: white;
+}
+.header-banner h3
+{
+	margin: 0;
+}
+
+
+
+/*---------------------------------SERVICIOS--------------------*/
+
+.services {
+    margin: 50px;
+}
+.services p{
+    font-size: 12px;
+
+}
+
+.icon-container {
+   
+    margin: 0 auto;
+    text-align: center;
+      }
+
+.icon-container i{
+    line-height: 150px;
+    font-size: 50px;
+    color: salmon;
+   }
+
+/*---------------------------------IMAGENES-------------------*/
+.container-fluid .col-md-4 {
+    
+    padding:0;
+    margin: 0;
+}
+
+/*---------------------------------GITHUB--------------------*/
+
+.github{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------QUERIES--------------------*/
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.tapita .row>div
+	{
+		text-align:left;
+        width: 50%;
+	}
+	
+	.desktop-menu
+	{
+		width: 100%;
+        display: inline-block;
+        padding: 0;
+        
+	}
+    
+    .desktop-menu a {
+        
+           font-size: 12px;
+    }
+    
+    .services {
+    margin: 0;
+}
+    
+}
+
+
+
+
+@media screen and (max-width:640px)
+{
+    
+   .frase
+{
+	padding: 80px;
+	text-align: center;
+}
+    
+ .btn-menu {
+    margin: 12px;
+     border: 1px solid white;
+     border-radius: 5px;
+     background-color: none;
+    
+    
+}
+    .tapita{
+         background-color: white;
+     
+}
+    .desktop-menu, .tto{
+    color: salmon;
+    margin-top: 20px;
+    
+}
+    .frase
+{
+	background-color: rgba(0, 0, 0, 0.51);
+    
+}
+   
+}
+
+
+
+
 
 
 
